@@ -1,7 +1,8 @@
 connection: "bigqueryconn01"
 
 # include all the views
-include: "/views/**/*.view"
+include: "/**/*.view"
+
 
 datagroup: bigqueryfirstproject_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
@@ -25,3 +26,5 @@ explore: reportroles {}
 explore: sample_view {}
 
 explore: test_view {}
+
+explore : sql_player_view_view_count {}
