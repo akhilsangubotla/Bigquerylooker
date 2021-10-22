@@ -4,6 +4,7 @@ view: business_view {
 
   dimension: description {
     type: string
+    description: " description for the view"
     sql: ${TABLE}.description ;;
   }
 

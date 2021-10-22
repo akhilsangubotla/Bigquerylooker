@@ -28,3 +28,5 @@ explore: sample_view {}
 explore: test_view {}
 
 explore : sql_player_view_view_count {}
+
+explore : sql_runner_query_multiple_test {}
