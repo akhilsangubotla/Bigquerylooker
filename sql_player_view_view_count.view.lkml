@@ -29,16 +29,19 @@ view: sql_player_view_view_count {
 
   dimension: player {
     type: string
+    description: "descrption  for the player"
     sql: ${TABLE}.player ;;
   }
 
   dimension: player_view_win_points {
     type: number
+    description: "descrption  for the player_view_win_points"
     sql: ${TABLE}.player_view_win_points ;;
   }
 
   dimension: player_view_count {
     type: number
+    description: "descrption  for the player_view_win_points"
     sql: ${TABLE}.player_view_count ;;
   }
 
