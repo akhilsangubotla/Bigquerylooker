@@ -19,7 +19,7 @@ view: sql_player_view_view_count {
 
   measure: count {
     type: count
-    description: "descrption  for the player"
+    description: "descrption  for the measure count"
     drill_fields: [detail*]
   }
 
