@@ -4,6 +4,7 @@ view: account_view {
 
   dimension: bank {
     type: string
+    description: "akhil"
     sql: ${TABLE}.bank ;;
   }
 
@@ -14,6 +15,7 @@ view: account_view {
 
   measure: count {
     type: count
+    description: "akhil"
     drill_fields: []
   }
 }
