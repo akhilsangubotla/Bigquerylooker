@@ -13,7 +13,9 @@ persist_with: bigqueryfirstproject_default_datagroup
 
 explore: account_view {}
 
-explore: business_view {}
+explore: business_view {
+  tags: ["Confidential", "Customer Data"]
+}
 
 
 explore: columnstag {}
