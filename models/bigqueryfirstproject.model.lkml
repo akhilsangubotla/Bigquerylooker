@@ -15,6 +15,7 @@ explore: account_view {}
 
 explore: business_view {
   tags: ["Confidential", "Customer Data"]
+  description: "Description I Want"
 }
 
 
