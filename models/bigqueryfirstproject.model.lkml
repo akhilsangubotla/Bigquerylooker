@@ -13,9 +13,8 @@ persist_with: bigqueryfirstproject_default_datagroup
 
 explore: account_view {}
 
-explore: business_view {
-  tags: ["tag","tag1"]
-}
+explore: business_view {}
+
 
 explore: columnstag {}
 
