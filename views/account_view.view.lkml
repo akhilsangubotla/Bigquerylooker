@@ -9,6 +9,7 @@ view: account_view {
   }
 
   dimension: rank {
+    tags: ["Important Data", "Customer Data"]
     type: number
     sql: ${TABLE}.rank;;
   }
