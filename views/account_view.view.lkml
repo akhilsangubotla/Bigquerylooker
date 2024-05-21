@@ -15,6 +15,7 @@ view: account_view {
   }
 
   measure: count {
+    tags: ["Data", "Customer"]
     type: count
     description: "akhil"
     drill_fields: []
