@@ -10,8 +10,7 @@ view: account_view {
 
   dimension: rank {
     type: number
-    sql: ${TABLE}.rank
-    tags : ["string1","string2"];;
+    sql: ${TABLE}.rank;;
   }
 
   measure: count {
