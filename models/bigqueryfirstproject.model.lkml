@@ -11,7 +11,10 @@ datagroup: bigqueryfirstproject_default_datagroup {
 
 persist_with: bigqueryfirstproject_default_datagroup
 
-explore: account_view {}
+explore: account_view {
+  tags: ["Confidential", "Customer Data"]
+  description: "Description added"
+}
 
 explore: business_view {
   tags: ["Confidential", "Customer Data"]
